@@ -22,6 +22,7 @@ RUN cd /usr/lib; ln -s /usr/include/hdf5/lib/libhdf5.so ./libhdf5.so; ln -s /usr
 
 RUN apt-get install gfortran -y
 RUN pip3 install scipy
+RUN pip3 install sklearn
 
 # RUN cd tensorflow; bazel build //tensorflow/tools/pip_package:build_pip_package
 
